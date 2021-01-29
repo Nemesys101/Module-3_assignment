@@ -1,0 +1,77 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+    padding: 0;
+  }
+
+#header-nav {
+  background-color: lightblue;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand a {
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+#nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+    border: 1px solid black;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+}
+
+.our-menu-title {
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.block {
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    margin: 0 20px 0;
+    margin-bottom: 15px;
+    height: 1000px;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#chicken {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    /* MENU BAR */
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+}
